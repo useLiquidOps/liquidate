@@ -1,0 +1,22 @@
+{
+  "name": "liquidate",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "ao-tokens": "^0.0.6",
+    "liquidops": "^1.0.73",
+    "prettier": "^3.5.3",
+    "warp-arbundles": "^1.0.4"
+  }
+}
