@@ -1,4 +1,4 @@
-import LiquidOps from "./node_modules/liquidops/dist/index.js";
+import LiquidOps from "liquidops";
 import createDataItemSignerBun from "./src/utils/bunSigner";
 import { type JWKInterface } from "./src/utils/bunSigner/jwk-interface";
 import { cleanQuantity } from "./src/utils/cleanQauntity";
