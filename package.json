@@ -16,12 +16,17 @@
   },
   "dependencies": {
     "@permaweb/aoconnect": "^0.0.85",
+    "@types/node": "^22.5.5",
     "ao-tokens": "^0.0.6",
-    "ar-gql": "^3.1.1",
-    "arbundles": "^0.11.2",
-    "liquidops": "^1.0.75",
-    "prettier": "^3.5.3",
-    "tsup": "^8.5.0",
+    "base64-js": "^1.5.1",
+    "base64url": "^3.0.1",
+    "bun-types": "^1.1.27",
+    "liquidops": "^1.0.76",
+    "prettier": "^3.0.3",
+    "ts-jest": "^29.1.1",
+    "tslib": "^2.5.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.0.4",
     "warp-arbundles": "^1.0.4"
   }
 }
