@@ -21,7 +21,7 @@
     "base64-js": "^1.5.1",
     "base64url": "^3.0.1",
     "bun-types": "^1.1.27",
-    "liquidops": "^1.0.76",
+    "liquidops": "^1.1.2",
     "prettier": "^3.0.3",
     "ts-jest": "^29.1.1",
     "tslib": "^2.5.0",
