@@ -1,10 +1,11 @@
 {
   "name": "liquidate",
-  "module": "src/index.ts",
+  "module": "index.ts",
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "bun run src/index.ts",
+    "dev": "bun run prettier && bun run build",
+    "build": "tsup index.ts --format esm --dts",
     "prettier": "prettier --write ."
   },
   "devDependencies": {
@@ -14,9 +15,11 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@permaweb/aoconnect": "^0.0.85",
     "ao-tokens": "^0.0.6",
-    "liquidops": "^1.0.73",
+    "liquidops": "^1.0.75",
     "prettier": "^3.5.3",
+    "tsup": "^8.5.0",
     "warp-arbundles": "^1.0.4"
   }
 }

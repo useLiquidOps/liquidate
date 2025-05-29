@@ -1,6 +1,6 @@
 import crypto from "crypto";
 import { Buffer } from "node:buffer";
-import { type JWKInterface, type JWKPublicInterface } from "./jwk-interface";
+import { JWKInterface, JWKPublicInterface } from "./jwk-interface";
 import * as ArweaveUtils from "./utils";
 
 interface SignatureOptions {

@@ -1,9 +1,9 @@
 import { Buffer } from "node:buffer";
 
-import { type Tag, DataItem } from "warp-arbundles";
+import { Tag, DataItem } from "warp-arbundles";
 import base64url from "base64url";
 
-import { type JWKInterface } from "./jwk-interface";
+import { JWKInterface } from "./jwk-interface";
 import BunCryptoDriver from "./bun-crypto-driver";
 
 abstract class Signer {
