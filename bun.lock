@@ -6,6 +6,8 @@
       "dependencies": {
         "@permaweb/aoconnect": "^0.0.85",
         "ao-tokens": "^0.0.6",
+        "ar-gql": "^3.1.1",
+        "arbundles": "^0.11.2",
         "liquidops": "^1.0.75",
         "prettier": "^3.5.3",
         "tsup": "^8.5.0",
@@ -216,7 +218,7 @@
 
     "ao-tokens": ["ao-tokens@0.0.6", "", { "peerDependencies": { "@permaweb/aoconnect": ">= 0.0.51 < 1" } }, "sha512-SLzOpqvvQAxkrwmz8kesKhjme0j1fID4jvKNH0AGT1OCPz1BGfQx649da4XYL4MkK3+Hj5lrhJYotZjnrLOmXQ=="],
 
-    "ar-gql": ["ar-gql@2.0.2", "", {}, "sha512-x803rnC20iN9gj1WlnwO+Cqvahu1QmnuwM529OdVzwl2krj/tdNoG4OZ1c1n6ougPVDWv+PNbkBaXggeiI6wDw=="],
+    "ar-gql": ["ar-gql@3.1.1", "", {}, "sha512-ut+Eu/PmPwQ7zkOFSUOvD55rWSnTromDTgqBZsyMh94B2VU734v+h4wB1in4AeztKQNp7BziORDlstomlxgzpg=="],
 
     "arbundles": ["arbundles@0.11.2", "", { "dependencies": { "@ethersproject/bytes": "^5.7.0", "@ethersproject/hash": "^5.7.0", "@ethersproject/providers": "^5.7.2", "@ethersproject/signing-key": "^5.7.0", "@ethersproject/transactions": "^5.7.0", "@ethersproject/wallet": "^5.7.0", "@irys/arweave": "^0.0.2", "@noble/ed25519": "^1.6.1", "base64url": "^3.0.1", "bs58": "^4.0.1", "keccak": "^3.0.2", "secp256k1": "^5.0.0" }, "optionalDependencies": { "@randlabs/myalgo-connect": "^1.1.2", "algosdk": "^1.13.1", "arweave-stream-tx": "^1.1.0", "multistream": "^4.1.0", "tmp-promise": "^3.0.2" } }, "sha512-vyX7vY6S8B4RFhGSoCixbnR/Z7ckpJjK+b/H7zcgRWJqqXjZqQ+3DQIJ19vKl5AvzNSsj5ja9kQDoZhMiGpBFw=="],
 
@@ -541,6 +543,8 @@
     "elliptic/bn.js": ["bn.js@4.12.2", "", {}, "sha512-n4DSx829VRTRByMRGdjQ9iqsN0Bh4OolPsFnaZBLcbi8iXcB+kJ9s7EnRt4wILZNV3kPLHkRVfOc/HvhC3ovDw=="],
 
     "http-message-signatures/structured-headers": ["structured-headers@1.0.1", "", {}, "sha512-QYBxdBtA4Tl5rFPuqmbmdrS9kbtren74RTJTcs0VSQNVV5iRhJD4QlYTLD0+81SBwUQctjEQzjTRI3WG4DzICA=="],
+
+    "liquidops/ar-gql": ["ar-gql@2.0.2", "", {}, "sha512-x803rnC20iN9gj1WlnwO+Cqvahu1QmnuwM529OdVzwl2krj/tdNoG4OZ1c1n6ougPVDWv+PNbkBaXggeiI6wDw=="],
 
     "node-fetch/whatwg-url": ["whatwg-url@5.0.0", "", { "dependencies": { "tr46": "~0.0.3", "webidl-conversions": "^3.0.0" } }, "sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw=="],
 
