@@ -1,7 +1,7 @@
 import { tokenData } from "liquidops";
 import { Quantity } from "ao-tokens";
 
-export function cleanQuantity(ticker: string, quantity: number): BigInt {
+export function cleanQuantity(ticker: string, quantity: number): Quantity {
   const decimals = tokenData[ticker];
 
   if (!decimals || !decimals.denomination) {
@@ -12,5 +12,5 @@ export function cleanQuantity(ticker: string, quantity: number): BigInt {
     quantity,
   );
 
-  return formattedQuantity.raw;
+  return formattedQuantity;
 }
