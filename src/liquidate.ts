@@ -51,7 +51,9 @@ export async function liquidate(
       },
       fail: {
         Target: walletAddress,
-        Tags: [{ name: "Action", values: ["Liquidate-Error", "Transfer-Error"] }],
+        Tags: [
+          { name: "Action", values: ["Liquidate-Error", "Transfer-Error"] },
+        ],
       },
     },
   });
