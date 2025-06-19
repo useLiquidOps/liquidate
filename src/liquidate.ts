@@ -1,6 +1,5 @@
 import LiquidOps, { tokenInput } from "liquidops";
-import createDataItemSignerBun from "./utils/bunSigner";
-import { type JWKInterface } from "./utils/bunSigner/jwk-interface";
+import { createDataItemSigner } from "@permaweb/aoconnect";
 import { cleanQuantity } from "./utils/cleanQauntity";
 import { ownerToAddress } from "./utils/arweaveUtils";
 
@@ -15,8 +14,8 @@ export async function liquidate(
     throw new Error("Please specify a JWK in the .env file");
   }
 
-  const JWK: JWKInterface = JSON.parse(process.env.JWK);
-  const signer = createDataItemSignerBun(JWK);
+  const JWK: any = JSON.parse(process.env.JWK);
+  const signer = createDataItemSigner(JWK);
   const client = new LiquidOps(signer);
   const walletAddress = await ownerToAddress(JWK.n);
 
