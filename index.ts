@@ -3,10 +3,10 @@ import { liquidate } from "./src/liquidate";
 //-----------------------------------------------------------------
 // CONFIGS
 //-----------------------------------------------------------------
-const WALLET_ADDRESS_TO_LIQUIDATE = `tGphuPlhxV5ppY_z2pQ_2JaU3-UU_8nVlgMmz7v4zDs`;
+const WALLET_ADDRESS_TO_LIQUIDATE = `X3xmAVHFmOr67ZRP7f12Smkp7c4Xsm5SZZQw0OcTFKo`;
 const TOKEN_TO_LIQUIDATE = "WUSDC";
-const TOKEN_YOU_GET_BACK = "WAR";
-const QUANTITY = 85.101437; // example 1.1 Arweave = 1.1
+const TOKEN_YOU_GET_BACK = "WUSDC";
+const QUANTITY = 2.584405; // example 1.1 Arweave = 1.1
 const SLIPPAGE = 5; // example 5 = 5% slippage
 //-----------------------------------------------------------------
 
